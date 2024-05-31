@@ -11,9 +11,8 @@ To build the Docker image for Kiomet, follow these steps:
 
 - Clone this repository to your local machine:
 
-```bash
-git clone https://github.com/dandus989/kiomet-docker.git
-``` 
+        git clone https://github.com/dandus989/kiomet-docker.git
+
 - Navigate to the cloned directory:
 
 ```bash
