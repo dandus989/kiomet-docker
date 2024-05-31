@@ -1,6 +1,8 @@
 # Docker Image for Kiomet
 This Dockerfile builds a Docker image for [Kiomet](https://github.com/SoftbearStudios/kiomet), an online multiplayer real-time strategy game by Softbear Inc .
 
+![Logo](https://github.com/SoftbearStudios/kiomet/blob/main/assets/branding/512x340.jpg?raw=true)
+
 # Usage
 
 ## Prerequisites
