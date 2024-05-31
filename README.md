@@ -15,26 +15,23 @@ To build the Docker image for Kiomet, follow these steps:
 
 - Navigate to the cloned directory:
 
-```bash
-cd kiomet-docker
-```
+        cd kiomet-docker
 
 - Build the Docker image using the provided Dockerfile:
 
-```bash
-docker build -t kiomet-docker .
-```
+        docker build -t kiomet-docker .
 
 - Running the Docker Container
-Once the Docker image is built, you can run a Docker container using the following command:
 
-``` bash
-docker run -d kiomet-docker
-```
-Replace kiomet-docker with the name you specified when building the Docker image if you used a different name.
+    Once the Docker image is built, you can run a Docker container using the following command:
+
+        docker run -d kiomet-docker
+  
+    Replace kiomet-docker with the name you specified when building the Docker image if you used a different name.
 
 - Accessing Kiomet
-After running the Docker container, you can access Kiomet by opening a web browser and navigating to http://localhost or https://localhost.
+
+    After running the Docker container, you can access Kiomet by opening a web browser and navigating to http://localhost or https://localhost.
 
 # License
 This Dockerfile and associated configurations are licensed under the GNU Lesser General Public License v3.0. See the LICENSE file for more details.
