@@ -62,7 +62,7 @@ jobs:
     - name: Generate artifact attestation
       uses: actions/attest-build-provenance@v1
       with:
-        subject-name: docker.io/library/dandus989/kiomet
+        subject-name: docker.io/dandus989/kiomet
         subject-digest: ${{ steps.push.outputs.digest }}
         push-to-registry: true
           
