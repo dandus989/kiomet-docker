@@ -39,4 +39,4 @@ To build the Docker image for Kiomet, follow these steps:
 This Dockerfile and associated configurations are licensed under the GNU Lesser General Public License v3.0. See the LICENSE file for more details.
 
 # Acknowledgments
-We would like to express our gratitude to SoftbearStudios for developing Kiomet, a powerful software solution that [brief acknowledgment of Kiomet's significance and impact].
+We would like to express our gratitude to SoftbearStudios for developing Kiomet.
