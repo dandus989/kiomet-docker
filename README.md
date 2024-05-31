@@ -3,6 +3,8 @@ This Dockerfile builds a Docker image for [Kiomet](https://github.com/SoftbearSt
 
 ![Logo](https://github.com/SoftbearStudios/kiomet/blob/main/assets/branding/512x340.jpg?raw=true)
 
+The prebuild image can be found in https://hub.docker.com/repository/docker/dandus989/kiomet
+
 # Usage
 
 ## Prerequisites
