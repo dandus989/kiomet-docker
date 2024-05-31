@@ -56,13 +56,13 @@ jobs:
         context: .
         file: Dockerfile
         push: true
-        tags: latest
+        tags: dandus989/kiomet:latest
         labels: ${{ steps.meta.outputs.labels }}
 
     - name: Generate artifact attestation
       uses: actions/attest-build-provenance@v1
       with:
-        subject-name: hub.docker.com/repository/docker/dandus989/kiomet
+        subject-name: docker.io/dandus989/kiomet
         subject-digest: ${{ steps.push.outputs.digest }}
         push-to-registry: true
           
